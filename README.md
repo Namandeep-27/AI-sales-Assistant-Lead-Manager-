@@ -1,4 +1,4 @@
-# AI-sales-Assistant-Lead-Manager-
+# AI Sales Assistant and Lead Manager 
 Built an AI-powered sales assistant that automates lead qualification, pricing estimation, and booking workflows for contractor businesses using full-stack TypeScript architecture and configurable business logic.
 
 An AI-powered lead qualification and sales automation system that converts customer inquiries from website chat, WhatsApp, and messaging channels into structured leads, pricing estimates, and booked consultations.
