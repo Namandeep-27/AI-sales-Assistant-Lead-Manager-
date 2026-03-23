@@ -1,50 +1,34 @@
 # AI Sales Assistant and Lead Manager 
-Built an AI-powered sales assistant that automates lead qualification, pricing estimation, and booking workflows for contractor businesses using full-stack TypeScript architecture and configurable business logic.
 
-An AI-powered lead qualification and sales automation system that converts customer inquiries from website chat, WhatsApp, and messaging channels into structured leads, pricing estimates, and booked consultations.
+AI Follow-up & Engagement Workflow Assistant
 
-This project demonstrates how conversational AI can be combined with configurable business logic, pricing workflows, and CRM-style tracking to automate early-stage sales operations.
+Built a prototype AI automation system to explore how conversational agents can support ongoing commercial conversations, lead qualification, and operational follow-up coordination.
 
-## Problem
+The system converts incoming customer inquiries from website chat or messaging channels into structured engagement context, enabling businesses to respond faster and manage early-stage opportunities more effectively.
 
-Many small and mid-sized service businesses lose potential customers due to slow response times, manual qualification processes, and fragmented communication channels. Sales teams often spend significant effort answering repetitive questions, preparing rough estimates, and coordinating bookings.
+Instead of functioning as a simple chatbot, the workflow focuses on maintaining conversation continuity, suggesting next actions, and supporting movement of leads into structured operational pipelines.
 
-## Solution
+Although initially configured for a contractor service business to demonstrate real-world usability, the underlying design is modular and can be adapted across industries where teams manage high volumes of inbound inquiries, partnership outreach, or commercial follow-ups.
 
-This system provides an intelligent conversational system that can:
+⸻
 
-- Qualify incoming leads through structured conversations  
-- Capture project details and customer intent  
-- Generate pricing guidance based on configurable rules  
-- Route leads into booking or follow-up workflows  
-- Store conversations and lead data in a centralized dashboard  
+Key workflow capabilities include:
 
-The platform is designed to be adaptable across industries by modifying knowledge configuration, pricing logic, and conversation flows.
+• Context-aware conversational lead qualification
+• Structured capture of customer requirements and intent
+• AI-assisted response drafting and engagement progression
+• Suggestion of next follow-up actions and booking coordination
+• Lightweight pipeline tracking for ongoing opportunity visibility
+• Exploration of retrieval-based context usage (RAG-style patterns) to enable domain-specific assistant behavior
+• Alignment with CRM workflows to support movement from AI interaction to real operational execution
 
-## Key Features
+⸻
 
-- Conversational lead qualification engine  
-- Configurable pricing and workflow logic  
-- Appointment scheduling flow  
-- Lead tracking dashboard  
-- Multi-channel extensibility (web chat, messaging, email)  
-- Full-stack TypeScript architecture  
+What this prototype demonstrates
 
-Architecture Overview
-	•	Conversational Experience Layer: A real-time AI interaction interface built using React and Tailwind that guides users through structured sales funnels instead of unstructured chat.
-	•	Workflow Orchestration Layer: TypeScript-based backend services responsible for managing conversation state, executing pricing and qualification logic, and coordinating downstream business actions.
-	•	Configurable Decision Engine: Rule-driven modules for lead scoring, pricing estimation, appointment routing, and fallback handling, allowing the system to adapt to multiple service business models.
-	•	Operational Data Layer: Centralized handling of lead pipelines, booking metadata, and knowledge configurations to support analytics, automation reliability, and business visibility.
-	•	AI Reasoning Layer: Prompt-engineered conversational flows designed to simulate sales discovery processes, reduce manual intake effort, and increase conversion efficiency across website chat and messaging channels like WhatsApp. 
+This project explores how agentic automation workflows can reduce manual response effort, improve consistency in early commercial conversations, and help teams maintain momentum across fragmented communication channels.
 
-## Use Case Example
-
-The prototype is configured for a countertop installation business to demonstrate real-world usage, but the system design supports adaptation to other service domains such as HVAC, home services, clinics, and consulting firms.
-
-
-## Goal of the Project
-
-To explore how AI systems can move beyond simple chatbots and function as operational sales assistants that automate decision flows, reduce response time, and improve lead conversion.
+Such workflow patterns can be extended to use cases like partnership outreach coordination, research engagement tracking, customer onboarding follow-ups, and internal operational task management.
 
 
 <img width="649" height="698" alt="Screenshot 2026-03-12 at 5 42 02 PM" src="https://github.com/user-attachments/assets/0dc639ae-9c03-4949-abd0-763054c97b25" />
